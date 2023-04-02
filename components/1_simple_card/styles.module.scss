@@ -1,0 +1,33 @@
+$backgroundColor: #505050;
+$headingColor: white;
+$textColor: #c4c4c4;
+
+.simpleCard {
+  background-color: $backgroundColor;
+  padding: 3rem;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  color: $headingColor;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.iconButton {
+  all: unset;
+  cursor: pointer;
+}
+
+.description {
+  color: $textColor;
+  font-size: larger;
+  line-height: 2rem;
+}
