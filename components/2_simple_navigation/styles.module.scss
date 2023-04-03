@@ -1,0 +1,45 @@
+$backgroundColor: #1b5fff;
+$hoverColor: #144dd2;
+$accentColor: #5f92ff;
+$textColor: white;
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  border-radius: 5px;
+  background-color: $backgroundColor;
+  padding: 3rem;
+  width: 18rem;
+}
+
+.searchBar {
+  position: relative;
+}
+
+.searchIcon {
+  display: inline;
+}
+
+.searchInput {
+  background-color: $accentColor;
+  border-radius: 50px;
+  background-color: $accentColor;
+  padding: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-size: large;
+}
+
+.link {
+  padding: 0.45rem 0 0.45rem 0;
+  color: $textColor;
+  text-decoration: none;
+}
+.link:hover {
+  background-color: $hoverColor;
+}

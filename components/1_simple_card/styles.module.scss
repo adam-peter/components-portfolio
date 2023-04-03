@@ -3,10 +3,10 @@ $headingColor: white;
 $textColor: #c4c4c4;
 
 .simpleCard {
+  border-radius: 10px;
   background-color: $backgroundColor;
   padding: 3rem;
-  width: 20rem;
-  border-radius: 10px;
+  width: 18rem;
 }
 
 .headingContainer {
@@ -17,8 +17,8 @@ $textColor: #c4c4c4;
 
 .heading {
   color: $headingColor;
-  font-size: 1.5rem;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .iconButton {
